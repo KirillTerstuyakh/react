@@ -1,0 +1,43 @@
+.item-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.riddle {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.riddle p {
+  font-size: 20px; 
+  font-weight: bold;
+  color: #333; 
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  font-size: 18px; 
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.selected {
+  background-color: #cfe2ff;
+}
+
+.correct-answer {
+  color: #008000; 
+  font-weight: bold;
+}
+
+.incorrect-answer {
+  color: #ff0000; 
+  font-weight: bold;
+}
